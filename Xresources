@@ -1,0 +1,66 @@
+gin*login.translations: #override \
+        Ctrl<Key>R: abort-display()\n\
+        <Key>F1: set-session-argument(failsafe) finish-field()\n\
+        <Key>Left: move-backward-character()\n\
+        <Key>Right: move-forward-character()\n\
+        <Key>Home: move-to-begining()\n\
+        <Key>End: move-to-end()\n\
+        Ctrl<Key>KP_Enter: set-session-argument(failsafe) finish-field()\n\
+        <Key>KP_Enter: set-session-argument() finish-field()\n\
+        Ctrl<Key>Return: set-session-argument(failsafe) finish-field()\n\
+        <Key>Return: set-session-argument() finish-field()
+
+xlogin*fail:            invisible text
+xlogin*failColor:       #798a99
+xlogin*failFace:        Serif-14:bold
+
+xlogin*greeting:        invisible text
+xlogin*greetColor:      #798a99
+xlogin*greetFace:       Serif-18:italic
+
+xlogin*face:            Terminus-14:bold
+
+xlogin*namePrompt:      User::
+xlogin*passwdPrompt:    Pass::
+xlogin*promptFace:      Terminus-12:bold
+xlogin*promptColor:     white
+
+xlogin*echoPasswd:      true
+xlogin*echoPasswdChar:  ?
+
+! border width of login window
+xlogin*borderWidth:     15
+xlogin*borderColor:     #667788
+
+! frame width of login window
+xlogin*frameWidth:      15
+
+! frame width of text inputs
+xlogin*innerFramesWidth: 0
+
+! separator width between greeting and text inputs
+xlogin.Login.sepWidth:  0
+
+! top/left border
+xlogin*hiColor:         #798a99
+
+! bottom/right border
+xlogin*shdColor:        #798a99
+
+! user entered text
+xlogin*foreground:      #ffffff
+
+! background of login window
+xlogin*background:      #798a99
+
+! background of text inputs
+xlogin*inpColor:        #99aab9
+
+! logo image
+xlogin*logoFileName:    /etc/X11/xenodm/pixmaps/puffy.xpm
+xlogin*logoPadding:     20
+
+xlogin*useShape:        true
+
+! xlogin.Login.allowRootLogin:  false
+
